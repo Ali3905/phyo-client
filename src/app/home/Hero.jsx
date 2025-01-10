@@ -9,7 +9,7 @@ const Hero = ({ handleSubmit, fetchingState }) => {
                     <img src='./star.png' alt='start' className='absolute top-[-10px] right-[-1px] w-[50px] h-auto  ' />
                     Find, Connect, Succeed - The
                     <span className="relative inline-block mx-2">
-                        <span className="relative z-10 text-[#00674F]">PyroMedia</span>
+                        <span className="relative z-10 text-[#00674F]">Phyo</span>
                         <img
                             src="/frame.png"
                             alt="frame"

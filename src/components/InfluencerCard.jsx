@@ -6,7 +6,7 @@ import React from 'react'
 const InfluencerCard = ({ influencer }) => {
     const router = useRouter()
     function loadImage(url) {
-        let p = url.split("/");
+        let p = url?.split("/") || [""];
         let t = '';
         for (let i = 0; i < p.length; i++) {
             if (i == 2) {

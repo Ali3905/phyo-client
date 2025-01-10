@@ -48,7 +48,9 @@ const index = () => {
             <div className='max-w-[1400px] mx-auto pt-[52px] relative z-10'>
                 <Navbar />
                 {/* <Header /> */}
-                <Hero  handleSubmit={getInfluencers} fetchingState={fetchingState} />
+                <div className='mt-[100px]'>
+                    <Hero handleSubmit={getInfluencers} fetchingState={fetchingState} />
+                </div>
                 <InfluencersList influencers={influencers} fetchingState={fetchingState} />
                 <Feature />
                 <WhyPhyo />
